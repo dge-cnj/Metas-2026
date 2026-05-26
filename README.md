@@ -17,16 +17,7 @@ As Metas Nacionais representam o compromisso dos tribunais brasileiros com o ape
 
 ## Estrutura do repositório
 
-```text
-Metas-2025/
-│
-├── R/                 # Scripts principais
-├── dados/             # Bases de entrada e saída
-├── logs/              # Logs de execução
-├── docs/              # Documentação auxiliar
-├── shiny/             # Aplicações Shiny
-└── README.md
-```
+
 
 ## Tecnologias utilizadas
 
