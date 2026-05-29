@@ -80,8 +80,6 @@ As informações oficiais sobre as Metas Nacionais podem ser consultadas nos seg
 - Painel das Metas Nacionais 2026
 - Glossário das Metas Nacionais 2026
 
----
-
 ## 📖 Referências
 
 - [Conselho Nacional de Justiça (CNJ)](https://www.cnj.jus.br/)
