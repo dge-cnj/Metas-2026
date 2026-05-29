@@ -65,8 +65,6 @@ Para a execução dos scripts localizados na pasta `ScriptTribunal/`, os arquivo
 | `Rcpp` | Integração entre R e C++ para ganho de desempenho. |
 | `openxlsx` | Leitura e escrita avançada de arquivos Excel. |
 
----
-
 ## 🚀 Fluxo Geral de Processamento
 
 | Etapa | Descrição |
