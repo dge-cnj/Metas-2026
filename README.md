@@ -8,8 +8,6 @@ Conforme previsto no artigo 13 da Resolução CNJ nº 325/2020, a **Meta Naciona
 
 As Metas Nacionais representam o compromisso institucional da Justiça brasileira com o aprimoramento contínuo da prestação jurisdicional, promovendo maior eficiência, celeridade, transparência e qualidade dos serviços oferecidos à sociedade.
 
----
-
 ## 🎯 Metas Nacionais do Poder Judiciário
 
 Definidas anualmente pelo Conselho Nacional de Justiça (CNJ) e aprovadas durante o Encontro Nacional do Poder Judiciário, as Metas Nacionais orientam a atuação estratégica dos tribunais brasileiros.
@@ -25,8 +23,6 @@ Entre os principais objetivos para 2026 destacam-se:
 - Dar tratamento prioritário a processos envolvendo povos indígenas e comunidades quilombolas;
 - Fortalecer o enfrentamento à violência doméstica e ao feminicídio.
 
----
-
 ## ✨ Sobre o Projeto
 
 Este repositório reúne scripts e recursos desenvolvidos para apoiar o processamento, consolidação e análise dos dados utilizados no acompanhamento das Metas Nacionais do Poder Judiciário.
@@ -40,8 +36,6 @@ As principais funcionalidades contempladas são:
 - Automatização de rotinas estatísticas;
 - Suporte ao monitoramento estratégico dos tribunais.
 
----
-
 ## 📁 Estrutura do Repositório
 
 | Pasta | Descrição |
@@ -50,13 +44,9 @@ As principais funcionalidades contempladas são:
 | `ScriptCompleto/` | Scripts destinados ao processamento consolidado de todos os tribunais. |
 | `ScriptTribunal/` | Scripts destinados ao processamento individual de um tribunal específico. |
 
----
-
 ## ⚠️ Observação Importante
 
 Para a execução dos scripts localizados na pasta `ScriptTribunal/`, os arquivos gerados pelo processo **Extrai Datamart** devem estar armazenados no mesmo diretório dos códigos-fonte em R.
-
----
 
 ## 📌 Tecnologias Utilizadas
 
@@ -87,9 +77,6 @@ Para a execução dos scripts localizados na pasta `ScriptTribunal/`, os arquivo
 | 📊 4 | Cálculo dos indicadores |
 | 📑 5 | Geração de relatórios e arquivos de saída |
 | 📈 6 | Construção de painéis e acompanhamento dos resultados |
-```
-
----
 
 ## 🔗 Fontes Oficiais
 
@@ -110,18 +97,12 @@ As informações oficiais sobre as Metas Nacionais podem ser consultadas nos seg
 - [Metas Nacionais 2026](https://www.cnj.jus.br/gestao-estrategica-e-planejamento/metas/metas-2026/)
 - [Painel das Metas Nacionais](https://justica-em-numeros.cnj.jus.br/painel-metas/)
 
----
-
 ## ℹ️ Aviso
 
 Os scripts disponibilizados neste repositório possuem finalidade técnica e institucional, destinando-se ao apoio das atividades de processamento, cálculo e acompanhamento das Metas Nacionais do Poder Judiciário. Os resultados produzidos dependem da qualidade e integridade dos dados fornecidos pelos tribunais ao DataJud e devem ser interpretados em conjunto com os normativos, glossários e orientações oficiais publicados pelo Conselho Nacional de Justiça.
 
----
-
 ## 📄 Licença
 
 Este repositório destina-se exclusivamente a fins institucionais, acadêmicos e de apoio às atividades de monitoramento das Metas Nacionais do Poder Judiciário.
-
----
 
 **Última atualização:** Maio/2026
