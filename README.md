@@ -1,65 +1,137 @@
-# Metas-2026
+# 📊 Metas Nacionais do Poder Judiciário – 2026
 
-Scripts utilizados para geração, tratamento, consolidação e validação dos dados do Painel de Metas Nacionais 2026 do Conselho Nacional de Justiça (CNJ).
+## Apresentação
 
-## Sobre o projeto
+As Metas Nacionais do Poder Judiciário para o ano de 2026 foram aprovadas pelos presidentes e representantes dos tribunais brasileiros durante o **19º Encontro Nacional do Poder Judiciário**, realizado nos dias **1º e 2 de dezembro de 2025**, em Florianópolis/SC.
 
-Este repositório reúne rotinas desenvolvidas para apoiar o processamento dos dados relacionados às Metas Nacionais do Poder Judiciário, com foco em:
+Conforme previsto no artigo 13 da Resolução CNJ nº 325/2020, a **Meta Nacional 1** integra obrigatoriamente o monitoramento da Estratégia Nacional do Poder Judiciário 2021–2026, não sendo submetida à votação pelos tribunais.
+
+As Metas Nacionais representam o compromisso institucional da Justiça brasileira com o aprimoramento contínuo da prestação jurisdicional, promovendo maior eficiência, celeridade, transparência e qualidade dos serviços oferecidos à sociedade.
+
+---
+
+## 🎯 Metas Nacionais do Poder Judiciário
+
+Definidas anualmente pelo Conselho Nacional de Justiça (CNJ) e aprovadas durante o Encontro Nacional do Poder Judiciário, as Metas Nacionais orientam a atuação estratégica dos tribunais brasileiros.
+
+Entre os principais objetivos para 2026 destacam-se:
+
+- Julgar mais processos do que os distribuídos;
+- Reduzir a taxa de congestionamento processual;
+- Priorizar o julgamento de processos mais antigos;
+- Estimular a solução consensual de conflitos;
+- Promover a inovação e a transformação digital;
+- Priorizar ações relacionadas à sustentabilidade e ao meio ambiente;
+- Dar tratamento prioritário a processos envolvendo povos indígenas e comunidades quilombolas;
+- Fortalecer o enfrentamento à violência doméstica e ao feminicídio.
+
+---
+
+## ✨ Sobre o Projeto
+
+Este repositório reúne scripts e recursos desenvolvidos para apoiar o processamento, consolidação e análise dos dados utilizados no acompanhamento das Metas Nacionais do Poder Judiciário.
+
+As principais funcionalidades contempladas são:
 
 - Extração e tratamento de dados;
-- Consolidação de bases do DataJud;
-- Cálculo dos indicadores das metas;
-- Geração de relatórios e painéis;
+- Consolidação das bases do DataJud;
+- Cálculo dos indicadores das Metas Nacionais;
+- Geração de relatórios e arquivos de apoio;
 - Automatização de rotinas estatísticas;
-- Apoio ao monitoramento estratégico do Poder Judiciário.
+- Suporte ao monitoramento estratégico dos tribunais.
 
-As Metas Nacionais representam o compromisso dos tribunais brasileiros com o aperfeiçoamento da prestação jurisdicional, buscando maior eficiência, celeridade e qualidade dos serviços prestados à sociedade.
+---
 
-## Estrutura do repositório
+## 📁 Estrutura do Repositório
 
+| Pasta | Descrição |
+|--------|------------|
+| `Glossarios/` | Glossários oficiais utilizados no ciclo das Metas Nacionais 2026. |
+| `ScriptCompleto/` | Scripts destinados ao processamento consolidado de todos os tribunais. |
+| `ScriptTribunal/` | Scripts destinados ao processamento individual de um tribunal específico. |
 
+---
 
-## Tecnologias utilizadas
+## ⚠️ Observação Importante
 
-- R
-- data.table
-- tidyverse
-- Rcpp
+Para a execução dos scripts localizados na pasta `ScriptTribunal/`, os arquivos gerados pelo processo **Extrai Datamart** devem estar armazenados no mesmo diretório dos códigos-fonte em R.
 
-## Fonte oficial
+---
 
-As informações oficiais sobre as Metas Nacionais podem ser consultadas no portal do Conselho Nacional de Justiça (CNJ):
+## 📌 Tecnologias Utilizadas
 
-- Portal das Metas do CNJ:
-  https://www.cnj.jus.br/gestao-estrategica-e-planejamento/metas/
+| Pacote | Finalidade |
+|---------|------------|
+| `data.table` | Manipulação de grandes volumes de dados com alto desempenho. |
+| `dtplyr` | Integração entre as sintaxes do dplyr e data.table. |
+| `lubridate` | Manipulação simplificada de datas e horários. |
+| `tidyverse` | Conjunto de pacotes para análise e transformação de dados. |
+| `winch` | Suporte à depuração e análise de pilhas de erro. |
+| `doParallel` | Execução paralela utilizando clusters. |
+| `foreach` | Estruturas iterativas e paralelas. |
+| `processx` | Gerenciamento de processos externos. |
+| `writexl` | Exportação simplificada de arquivos Excel. |
+| `future` | Infraestrutura para processamento assíncrono e paralelo. |
+| `Rcpp` | Integração entre R e C++ para ganho de desempenho. |
+| `openxlsx` | Leitura e escrita avançada de arquivos Excel. |
 
-- Painel das Metas Nacionais:
-  https://www.cnj.jus.br/gestao-estrategica-e-planejamento/metas/metas-2026/
+---
 
-## Metas Nacionais do Poder Judiciário
+## 🚀 Fluxo Geral de Processamento
 
-As Metas Nacionais do Poder Judiciário são definidas anualmente pelo Conselho Nacional de Justiça e aprovadas durante o Encontro Nacional do Poder Judiciário.
+```text
+DataJud
+   ↓
+Extração dos dados
+   ↓
+Tratamento e padronização
+   ↓
+Aplicação das regras das Metas Nacionais
+   ↓
+Cálculo dos indicadores
+   ↓
+Geração de relatórios
+   ↓
+Painéis e monitoramento
+```
 
-Entre os principais objetivos estão:
+---
 
-- Julgar mais processos que os distribuídos;
-- Reduzir a taxa de congestionamento;
-- Priorizar processos antigos;
-- Incentivar a conciliação;
-- Fortalecer a inovação;
-- Priorizar ações ambientais;
-- Priorizar processos relacionados a direitos indígenas e quilombolas;
-- Combater a violência doméstica e o feminicídio.
+## 🔗 Fontes Oficiais
 
-## Observações
+As informações oficiais sobre as Metas Nacionais podem ser consultadas nos seguintes endereços:
 
-Os scripts presentes neste repositório possuem finalidade técnica e institucional, sendo utilizados como apoio ao acompanhamento das Metas Nacionais do Poder Judiciário.
+- Portal das Metas Nacionais do CNJ
+- Painel das Metas Nacionais 2026
+- Glossário das Metas Nacionais 2026
+
+---
 
 ## 📖 Referências
 
-- [Conselho Nacional de Justiça (CNJ)](https://www.cnj.jus.br/)
-- [Resolução CNJ nº 325/2020](https://atos.cnj.jus.br/atos/detalhar/3365)
-- [Estratégia Nacional do Poder Judiciário 2021–2026](https://www.cnj.jus.br/wp-content/uploads/2020/09/estrategia-nacional-poder-judiciario-2021-2026.pdf)
-- [Portal das Metas Nacionais](https://www.cnj.jus.br/gestao-estrategica-e-planejamento/metas/)
-- [Metas Nacionais 2026](https://www.cnj.jus.br/gestao-estrategica-e-planejamento/metas/metas-2026/)
-- [Painel das Metas Nacionais](https://justica-em-numeros.cnj.jus.br/painel-metas/))
+| Documento | Link |
+|------------|------|
+| Conselho Nacional de Justiça (CNJ) | [Acessar](https://www.cnj.jus.br/) |
+| Resolução CNJ nº 325/2020 | [Acessar](https://atos.cnj.jus.br/atos/detalhar/3365) |
+| Estratégia Nacional do Poder Judiciário 2021–2026 | [Acessar](https://www.cnj.jus.br/wp-content/uploads/2020/09/estrategia-nacional-poder-judiciario-2021-2026.pdf) |
+| Portal das Metas Nacionais | [Acessar](https://www.cnj.jus.br/gestao-estrategica-e-planejamento/metas/) |
+| Metas Nacionais 2026 | [Acessar](https://www.cnj.jus.br/gestao-estrategica-e-planejamento/metas/metas-2026/) |
+| Painel das Metas Nacionais | [Acessar](https://paineis.cnj.jus.br/QvAJAXZfc/opendoc.htm?document=qvw_l%2FPainelCNJ.qvw&host=QVS%40neodimio03&anonymous=true) |
+
+---
+
+## ℹ️ Aviso
+
+Os scripts disponibilizados neste repositório possuem finalidade técnica e institucional, destinando-se ao apoio das atividades de processamento, cálculo e acompanhamento das Metas Nacionais do Poder Judiciário.
+
+Os resultados produzidos dependem da qualidade e integridade dos dados fornecidos pelos tribunais ao DataJud e devem ser interpretados em conjunto com os normativos, glossários e orientações oficiais publicados pelo Conselho Nacional de Justiça.
+
+---
+
+## 📄 Licença
+
+Este repositório destina-se exclusivamente a fins institucionais, acadêmicos e de apoio às atividades de monitoramento das Metas Nacionais do Poder Judiciário.
+
+---
+
+**Última atualização:** Maio/2026
