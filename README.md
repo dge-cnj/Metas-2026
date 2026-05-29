@@ -2,11 +2,7 @@
 
 ## Apresentação
 
-As Metas Nacionais do Poder Judiciário para o ano de 2026 foram aprovadas pelos presidentes e representantes dos tribunais brasileiros durante o **19º Encontro Nacional do Poder Judiciário**, realizado nos dias **1º e 2 de dezembro de 2025**, em Florianópolis/SC.
-
-Conforme previsto no artigo 13 da Resolução CNJ nº 325/2020, a **Meta Nacional 1** integra obrigatoriamente o monitoramento da Estratégia Nacional do Poder Judiciário 2021–2026, não sendo submetida à votação pelos tribunais.
-
-As Metas Nacionais representam o compromisso institucional da Justiça brasileira com o aprimoramento contínuo da prestação jurisdicional, promovendo maior eficiência, celeridade, transparência e qualidade dos serviços oferecidos à sociedade.
+As Metas Nacionais do Poder Judiciário para o ano de 2026 foram aprovadas pelos presidentes e representantes dos tribunais brasileiros durante o **19º Encontro Nacional do Poder Judiciário**, realizado nos dias **1º e 2 de dezembro de 2025**, em Florianópolis/SC. Conforme previsto no artigo 13 da Resolução CNJ nº 325/2020, a **Meta Nacional 1** integra obrigatoriamente o monitoramento da Estratégia Nacional do Poder Judiciário 2021–2026, não sendo submetida à votação pelos tribunais. As Metas Nacionais representam o compromisso institucional da Justiça brasileira com o aprimoramento contínuo da prestação jurisdicional, promovendo maior eficiência, celeridade, transparência e qualidade dos serviços oferecidos à sociedade.
 
 ## 🎯 Metas Nacionais do Poder Judiciário
 
