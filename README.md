@@ -114,7 +114,7 @@ As informações oficiais sobre as Metas Nacionais podem ser consultadas nos seg
 - [Estratégia Nacional do Poder Judiciário 2021–2026](https://www.cnj.jus.br/wp-content/uploads/2020/09/estrategia-nacional-poder-judiciario-2021-2026.pdf)
 - [Portal das Metas Nacionais](https://www.cnj.jus.br/gestao-estrategica-e-planejamento/metas/)
 - [Metas Nacionais 2026](https://www.cnj.jus.br/gestao-estrategica-e-planejamento/metas/metas-2026/)
-- [Painel das Metas Nacionais]([(https://justica-em-numeros.cnj.jus.br/painel-metas/))
+- [Painel das Metas Nacionais](https://justica-em-numeros.cnj.jus.br/painel-metas/)
 
 
 ## ℹ️ Aviso
