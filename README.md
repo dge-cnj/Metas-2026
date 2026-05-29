@@ -79,20 +79,14 @@ Para a execução dos scripts localizados na pasta `ScriptTribunal/`, os arquivo
 
 ## 🚀 Fluxo Geral de Processamento
 
-```text
-DataJud
-   ↓
-Extração dos dados
-   ↓
-Tratamento e padronização
-   ↓
-Aplicação das regras das Metas Nacionais
-   ↓
-Cálculo dos indicadores
-   ↓
-Geração de relatórios
-   ↓
-Painéis e monitoramento
+| Etapa | Descrição |
+|--------|------------|
+| 📥 1 | Extração dos dados do DataJud |
+| 🔄 2 | Tratamento, limpeza e padronização |
+| ⚙️ 3 | Aplicação das regras das Metas Nacionais |
+| 📊 4 | Cálculo dos indicadores |
+| 📑 5 | Geração de relatórios e arquivos de saída |
+| 📈 6 | Construção de painéis e acompanhamento dos resultados |
 ```
 
 ---
@@ -116,12 +110,11 @@ As informações oficiais sobre as Metas Nacionais podem ser consultadas nos seg
 - [Metas Nacionais 2026](https://www.cnj.jus.br/gestao-estrategica-e-planejamento/metas/metas-2026/)
 - [Painel das Metas Nacionais](https://justica-em-numeros.cnj.jus.br/painel-metas/)
 
+---
 
 ## ℹ️ Aviso
 
-Os scripts disponibilizados neste repositório possuem finalidade técnica e institucional, destinando-se ao apoio das atividades de processamento, cálculo e acompanhamento das Metas Nacionais do Poder Judiciário.
-
-Os resultados produzidos dependem da qualidade e integridade dos dados fornecidos pelos tribunais ao DataJud e devem ser interpretados em conjunto com os normativos, glossários e orientações oficiais publicados pelo Conselho Nacional de Justiça.
+Os scripts disponibilizados neste repositório possuem finalidade técnica e institucional, destinando-se ao apoio das atividades de processamento, cálculo e acompanhamento das Metas Nacionais do Poder Judiciário. Os resultados produzidos dependem da qualidade e integridade dos dados fornecidos pelos tribunais ao DataJud e devem ser interpretados em conjunto com os normativos, glossários e orientações oficiais publicados pelo Conselho Nacional de Justiça.
 
 ---
 
